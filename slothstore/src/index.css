@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color: #333333;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: #1E4AE9;
+}
+
+a:hover {
+    opacity: 75%;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+#root, #__next {
+    isolation: isolate;
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+html {
+    font-size: 14px;
+}

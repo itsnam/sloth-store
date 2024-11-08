@@ -1,0 +1,94 @@
+.btn-sign-in:hover,
+.btn-sign-in {
+    height: 44px !important;
+    background-color: #333333 !important;
+    border-color: #333333;
+    box-shadow: none;
+}
+
+.btn-sign-in:hover {
+    opacity: 90%;
+    color: #fff !important;
+    border-color: #667085 !important;
+}
+
+.btn-sign-in-option {
+    height: 44px !important;
+    background-color: #FFFFFF !important;
+    border-color: #D4D7E3;
+    box-shadow: none;
+    color: #333333 !important;
+}
+
+.btn-sign-in-option:hover {
+    background-color: #F7FBFF !important;
+    border-color: #667085 !important;
+}
+
+.btn-sign-in-option:active {
+    color: #333333 !important;
+}
+
+.or {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+  
+.or::before, .or::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    border-top: 1px solid #D4D7E3;
+}
+  
+.or::before {
+    left: 0;
+}
+  
+.or::after {
+    right: 0;
+}
+  
+.btn-google,
+.btn-google:hover {
+    min-height: 44px !important;
+    background-color: #F7FBFF !important;
+    box-shadow: none;
+    color: #333333;
+    border-color: #8897AD !important;
+}
+
+.btn-google:hover {
+    opacity: 110%;
+    color: #333333 !important;
+    border-color: #667085 !important;
+}
+
+
+.ant-checkbox-wrapper {
+    color: #333333; 
+}
+
+.ant-checkbox-inner {
+    border-color: #333333 !important; 
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #333333 !important; 
+    border-color: #333333 !important;
+}
+
+.ant-checkbox:hover .ant-checkbox-inner {
+    border-color: #333333 !important; 
+}
+
+.ant-checkbox-checked:hover .ant-checkbox-inner {
+    border-color: #333333 !important; 
+}
+
+.ant-checkbox-checked:active .ant-checkbox-inner {
+    border-color: #333333 !important;
+    background-color: #333333 !important; 
+}
